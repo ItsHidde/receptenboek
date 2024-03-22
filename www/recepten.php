@@ -52,9 +52,9 @@ $conn->close();
 
 <title>receptenboek</title>
 
-</head
-
 </head>
+
+
 
 <body>
     <header>
@@ -80,4 +80,25 @@ $conn->close();
 
 </nav>
     </header>
+
+    <div class="container">
+
+<?php while ($gerecht = $result_gerechten->fetch_assoc()) : ?> <!-- hier haal je jouw gemaakte variable op en zet je het in een while statement -->
+
+<div class="box">
+
+<h1><?php echo $gerecht["naam_gerecht"] ?></h1> <!-- Toon de naam van het gerecht -->
+
+<a href="recept.php?id=<?php echo $gerecht['id'] ?>"> <!-- hier haal je de informatie per gerecht uit de database en maakt er een link voor aan -->
+
+<img src="images/<?php echo $gerecht['afbeelding'] ?>" alt=""> <!-- Toon de afbeelding van het gerecht uit de database -->
+
+</a>
+
+</div>
+
+<?php endwhile; ?> <!-- einde endwhile -->
+
+</div>
+
 </body>
