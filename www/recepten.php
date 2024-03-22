@@ -22,6 +22,16 @@ $row = $result_total_recipes->fetch_assoc();
 $total_recipes = $row["total_recipes"];
 
 }
+
+// Query om de eerste negen gerechten op te halen
+
+$sql_gerechten = "SELECT * FROM `welsh_eten` LIMIT 9";
+
+$result_gerechten = $conn->query($sql_gerechten);
+
+// Sluit de databaseverbinding
+
+$conn->close();
 ?>
 
 <!DOCTYPE html>
