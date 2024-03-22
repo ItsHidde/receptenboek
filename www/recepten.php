@@ -6,6 +6,22 @@ require 'database.php';
 $sql_total_recipes = "SELECT COUNT(*) AS total_recipes FROM welsh_eten";
 
 $result_total_recipes = $conn->query($sql_total_recipes);
+
+// Variabele initialisatie voor het totale aantal recepten
+
+$total_recipes = 0;
+
+// Controleer of de query resultaten heeft opgeleverd
+
+if ($result_total_recipes->num_rows > 0) {
+
+// Haal het aantal recepten op uit de resultaten
+
+$row = $result_total_recipes->fetch_assoc();
+
+$total_recipes = $row["total_recipes"];
+
+}
 ?>
 
 <!DOCTYPE html>
