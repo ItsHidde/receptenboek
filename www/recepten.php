@@ -26,11 +26,11 @@
 
 <div class="navbar-links">
 
-<a href="http://localhost/recepten.php">RECEPTEN</a>
+<a href="">RECEPTEN</a>
 
-<a href="http://localhost/speciaal.php">SPECIAAL</a>
+<a href="">SPECIAAL</a>
 
-<a href="http://localhost/faq.html">FAQ's</a>
+<a href="">FAQ's</a>
 
 </div>
 
