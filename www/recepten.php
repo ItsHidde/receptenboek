@@ -1,3 +1,13 @@
+<?php
+require 'database.php';
+
+// Query om het totale aantal recepten op te halen
+
+$sql_total_recipes = "SELECT COUNT(*) AS total_recipes FROM welsh_eten";
+
+$result_total_recipes = $conn->query($sql_total_recipes);
+?>
+
 <!DOCTYPE html>
 
 <html>
