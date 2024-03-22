@@ -101,4 +101,16 @@ $conn->close();
 
 </div>
 
+<footer>
+
+<div class="bottom">
+
+the end
+
+</div>
+
+</footer>
+
+</html>
+
 </body>
