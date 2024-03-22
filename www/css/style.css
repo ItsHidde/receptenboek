@@ -58,3 +58,50 @@
         
         color: green
         }
+
+        
+        .container {
+
+            border: 5px solid red;
+            
+            text-align: center;
+            
+            display: flex;
+            
+            flex-wrap: wrap;
+            
+            justify-content: space-between;
+            
+            align-items: flex-start; /* Ensure items start from the top */
+            
+            }
+            
+            .box {
+            
+            width: calc(25% - 40px); /* Adjusted width to accommodate margin */
+            
+            margin-bottom: 20px; /* Space between rows */
+            
+            background-color: green;
+            
+            margin-top: 50px; /* Space between boxes */
+            
+            margin-bottom: 50px; /* Space between boxes */
+            
+            margin-left: 80px; /* Space between boxes */
+            
+            margin-right: 80px; /* Space between boxes */
+            
+            text-align: center;
+            
+            }
+            
+            .box img {
+            
+            width: 100%; /* Ensures image fills its container */
+            
+            height: 200px; /* Fixed height for all images */
+            
+            object-fit: cover; /* Prevents distortion */
+            
+            }
