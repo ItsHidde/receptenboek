@@ -40,11 +40,19 @@ $conn->close();
 
 <head>
 
-<link href="css/index.css" rel="stylesheet" />
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/style.css" rel="stylesheet" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-<title>RECEPTENBOEK</title>
+<title>receptenboek</title>
+
+</head
 
 </head>
 
@@ -54,7 +62,7 @@ $conn->close();
 
 <div class="navbar-brand">
 
-<a href="#">WELKOM!</a><br>
+<a href="#">welcome</a><br>
 
 <span style="color: white;">Aantal recepten: <?php echo $total_recipes; ?></span><br>
 
