@@ -11,3 +11,29 @@
 <title>RECEPTENBOEK</title>
 
 </head>
+
+<body>
+    <header>
+    <nav class="navbar">
+
+<div class="navbar-brand">
+
+<a href="#">WELKOM!</a><br>
+
+<span style="color: white;">Aantal recepten: <?php echo $total_recipes; ?></span><br>
+
+</div>
+
+<div class="navbar-links">
+
+<a href="http://localhost/recepten.php">RECEPTEN</a>
+
+<a href="http://localhost/speciaal.php">SPECIAAL</a>
+
+<a href="http://localhost/faq.html">FAQ's</a>
+
+</div>
+
+</nav>
+    </header>
+</body>
